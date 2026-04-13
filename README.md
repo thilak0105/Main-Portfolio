@@ -6,7 +6,7 @@ It showcases projects, experience, achievements, skills, resume, and contact det
 
 ## Live Links
 
-- Portfolio: https://thilak.tech
+- Portfolio: https://thilakportfolio.vercel.app
 - Resume Site: https://resume.thilak.tech
 
 ## Features
