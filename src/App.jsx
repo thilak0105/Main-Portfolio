@@ -73,33 +73,36 @@ function App() {
 
   return (
     <div className="portfolio-app">
+      <a className="skip-link" href="#main-content">
+        Skip to main content
+      </a>
       <TopBar />
       <TabNav tabs={tabs} activeTab={activeTab} onTabClick={onTabClick} />
       <ActivityBar activeTab={activeTab} onNavigate={onTabClick} />
 
-      <main className="portfolio-main">
-        <section id="hello" ref={setSectionRef('hello')}>
+      <main id="main-content" className="portfolio-main">
+        <section id="hello" aria-label="Hello" ref={setSectionRef('hello')}>
           <Hello />
         </section>
-        <section id="experience" ref={setSectionRef('experience')}>
+        <section id="experience" aria-label="Experience" ref={setSectionRef('experience')}>
           <Experience />
         </section>
-        <section id="about_me" ref={setSectionRef('about_me')}>
+        <section id="about_me" aria-label="About me" ref={setSectionRef('about_me')}>
           <AboutMe />
         </section>
-        <section id="projects" ref={setSectionRef('projects')}>
+        <section id="projects" aria-label="Projects" ref={setSectionRef('projects')}>
           <Projects />
         </section>
-        <section id="achievements" ref={setSectionRef('achievements')}>
+        <section id="achievements" aria-label="Achievements" ref={setSectionRef('achievements')}>
           <Achievements />
         </section>
-        <section id="skills" ref={setSectionRef('skills')}>
+        <section id="skills" aria-label="Skills" ref={setSectionRef('skills')}>
           <Skills />
         </section>
-        <section id="resume" ref={setSectionRef('resume')}>
+        <section id="resume" aria-label="Resume" ref={setSectionRef('resume')}>
           <Resume />
         </section>
-        <section id="contact" ref={setSectionRef('contact')}>
+        <section id="contact" aria-label="Contact" ref={setSectionRef('contact')}>
           <Contact />
         </section>
       </main>

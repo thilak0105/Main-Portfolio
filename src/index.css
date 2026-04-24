@@ -59,6 +59,25 @@ a {
   min-height: 100svh;
 }
 
+.skip-link {
+  position: fixed;
+  left: 0.75rem;
+  top: -48px;
+  z-index: 60;
+  padding: 0.5rem 0.75rem;
+  color: #0a1118;
+  background: var(--accent);
+  border: 1px solid rgba(0, 212, 255, 0.45);
+  text-decoration: none;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus-visible {
+  top: 0.5rem;
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
 .activity-bar {
   position: fixed;
   top: calc(var(--topbar-height) + var(--tabbar-height) + 1.5rem);
@@ -175,6 +194,13 @@ a {
   background: var(--accent-hover);
   transform: translateY(-1px);
   box-shadow: 0 0 8px rgba(0, 212, 255, 0.3);
+}
+
+.accent-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  transform: none;
+  box-shadow: none;
 }
 
 .ghost-button {
@@ -1243,6 +1269,18 @@ a {
   color: var(--success);
   margin: 0;
   font-size: 0.9rem;
+}
+
+.error-line {
+  color: #ff9a9a;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.contact-form-help {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
 }
 
 .contact-social {
