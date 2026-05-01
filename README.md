@@ -9,7 +9,7 @@ It showcases projects, experience, achievements, skills, resume, and contact det
 - Portfolio: https://thilakportfolio.vercel.app
 - Resume Site: https://resume.thilak.tech
 
-## Features
+## Features 
 
 - VS Code-inspired UI shell with top bar, tab navigation, and activity bar.
 - Scroll-synced active tab state using Intersection Observer in the main app.
