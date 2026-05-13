@@ -4,7 +4,7 @@ A terminal-inspired personal portfolio built with React + Vite.
 
 It showcases projects, experience, achievements, skills, resume, and contact details in a single-page scrolling layout with animated section transitions and VS Code-like UI chrome.
 
-## Live Links
+## Live Links 
 
 - Portfolio: https://thilakportfolio.vercel.app
 - Resume Site: https://resume.thilak.tech
