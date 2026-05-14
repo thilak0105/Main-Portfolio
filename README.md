@@ -34,7 +34,7 @@ It showcases projects, experience, achievements, skills, resume, and contact det
 - React 19
 - Vite 8
 - Framer Motion
-- React Icons
+- React Icons 
 - Vercel Analytics
 - Vercel Speed Insights
 - ESLint 9
